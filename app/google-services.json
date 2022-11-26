@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "66812345735",
+    "project_id": "fir-23558",
+    "storage_bucket": "fir-23558.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66812345735:android:016b1b75ff32c1ded8a722",
+        "android_client_info": {
+          "package_name": "club.aborigen.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66812345735-augsmp5220bnmkcid5q5gjomi23d0q7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "club.aborigen.firebase",
+            "certificate_hash": "2bfae38164413f5da50b07c782cd26aff1f8f9e6"
+          }
+        },
+        {
+          "client_id": "66812345735-94pobi2nrrfm7la1gf7pouiuejl1dgi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg_PupEWzP9pYWs2_fLGxLswy5043QWBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66812345735-94pobi2nrrfm7la1gf7pouiuejl1dgi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
