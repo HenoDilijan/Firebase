@@ -16,6 +16,10 @@ public class MessagingService extends FirebaseMessagingService {
     public void onMessageReceived(@NonNull RemoteMessage message) {
         super.onMessageReceived(message);
         try {
+            // Steps to test
+            // 1. Enable Cloud Messaging API
+            // 2. Copy "Server key" from console and "Token" from logs
+            // 3. Send message to token: https://testfcm.com/
             Log.i("UWC", "Message received: " + message.getNotification().getBody() + ", data: " + message.getData());
         } catch (Exception e) {
             Log.e("UWC", "Error when receiving message: " + e);
