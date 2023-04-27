@@ -1,20 +1,20 @@
 {
   "project_info": {
-    "project_number": "66812345735",
-    "project_id": "fir-23558",
-    "storage_bucket": "fir-23558.appspot.com"
+    "project_number": "580960785933",
+    "project_id": "dilijan-be4f4",
+    "storage_bucket": "dilijan-be4f4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:66812345735:android:016b1b75ff32c1ded8a722",
+        "mobilesdk_app_id": "1:580960785933:android:09aad51d7f3a22ac262744",
         "android_client_info": {
           "package_name": "club.aborigen.firebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "66812345735-augsmp5220bnmkcid5q5gjomi23d0q7s.apps.googleusercontent.com",
+          "client_id": "580960785933-nal0po5i0bh4l7okm6fdpql93tetvo1g.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "club.aborigen.firebase",
@@ -22,20 +22,20 @@
           }
         },
         {
-          "client_id": "66812345735-94pobi2nrrfm7la1gf7pouiuejl1dgi1.apps.googleusercontent.com",
+          "client_id": "580960785933-euif9s80qkevqb4uf6jam91jbcn1dols.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAg_PupEWzP9pYWs2_fLGxLswy5043QWBc"
+          "current_key": "AIzaSyDnGXnZJIl8YaPqfHt4VbD6iEJVrUvIEg8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "66812345735-94pobi2nrrfm7la1gf7pouiuejl1dgi1.apps.googleusercontent.com",
+              "client_id": "580960785933-euif9s80qkevqb4uf6jam91jbcn1dols.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

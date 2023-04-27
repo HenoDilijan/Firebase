@@ -18,34 +18,18 @@ import com.google.firebase.messaging.FirebaseMessaging;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
-    DatabaseReference database;
+    DataProvider dataProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        dataProvider = new DataProvider();
+
+        Log.i("UWC", "Firebase application started");
         FirebaseMessaging.getInstance().getToken().addOnCompleteListener(task ->
                 Log.i("UWC", "FCM token: " + task.getResult())
         );
-
-        database = FirebaseDatabase.getInstance().getReference("Shake");
-
-        Log.i("UWC", "Reading from " + database.getKey());
-
-        ValueEventListener postListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                Log.i("UWC", "Value is: " + dataSnapshot.getValue());
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                Log.e("UWC", "Failed to read value.", error.toException());
-            }
-        };
-        database.addValueEventListener(postListener);
-
-        database.setValue("Burger");
     }
 }
