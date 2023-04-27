@@ -3,5 +3,9 @@
     <string name="notification_channel_id">uwc_channel_id</string>
     <string name="notification_channel_name">UWC Channel</string>
     <string name="notification_channel_description">UWC Channel Description</string>
+    <string name="label_google_login">Google Login</string>
+    <string name="label_please_wait">Please Wait</string>
+    <string name="label_already_logged_in">Logged in as:\n%1$s</string>
+    <string name="add_bid">Add bid</string>
 
 </resources>
